@@ -1,0 +1,43 @@
+# Git Basic Commands with Explanation
+
+1. Initialize a new Git repository
+git init
+# Creates a new Git repository in your current directory.
+
+2. Check the status of your repository
+git status
+# Shows the current state of your working directory and staging area.
+
+3. Add files to the staging area
+git add <filename>
+# Adds a specific file to the staging area.
+git add .
+# Adds all changed files to the staging area.
+
+4. Commit changes
+git commit -m "Your descriptive commit message"
+# Records the staged changes with a commit message.
+
+5. Connect to a remote repository (e.g., GitHub)
+git remote add origin https://github.com/username/repo.git
+# Links your local repo to a remote server.
+
+6. Push changes to the remote repository
+git push -u origin main
+# Pushes your commits to the remote 'main' branch.
+
+7. Pull changes from the remote repository
+git pull origin main
+# Fetches and merges remote changes to your local branch.
+
+8. Create a new branch
+git checkout -b feature-branch
+# Creates and switches to a new branch named 'feature-branch'.
+
+9. Switch between branches
+git checkout main
+# Switches back to the 'main' branch.
+
+10. Merge a branch into the current branch
+git merge feature-branch
+# Merges changes from 'feature-branch' into the current branch.
